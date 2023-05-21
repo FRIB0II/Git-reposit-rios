@@ -1,7 +1,8 @@
-print('Olá git!')
+print('Este progama faz o cálculo da soma de dois números.')
 
-a = 1
-b = 1
-c = a+b
+num1 = int(input('Informe um número: '))
+num2 = int(input('Informe outro número: '))
 
-print(c)
+soma = num1 + num2
+
+print(soma)
